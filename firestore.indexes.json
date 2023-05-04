@@ -1,0 +1,79 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "design-requests",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "designerId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdDate",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "design-requests",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "designerId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "design-requests",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "designerId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "finished",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdDate",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "design-responses",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "designerId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdDate",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "design-responses",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "designerId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdDate",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
